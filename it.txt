@@ -1,5 +1,0 @@
-REPOSITORY                      TAG                 IMAGE ID            CREATED             SIZE
-ashraf1abdelrasool/javaffmpeg   latest              e57be6289372        23 hours ago        762 MB
-java                            8                   d23bdf5b1b1b        2 months ago        643 MB
-java                            latest              d23bdf5b1b1b        2 months ago        643 MB
-hello-world                     latest              48b5124b2768        2 months ago        1.84 kB
