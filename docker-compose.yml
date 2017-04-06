@@ -1,0 +1,5 @@
+weboxj:
+  image:  ashraf1abdelrasool/weboxj
+  hostname: weboxj
+  ports:
+    - "8080:8080"

@@ -1,0 +1,8 @@
+---
+applications:
+- name: weboxj
+  memory: 1G
+  instances: 1
+  host: weboxj
+  buildpack: https://github.com/cloudfoundry/java-buildpack
+  path: target/weboxj-0.0.1-SNAPSHOT.jar
