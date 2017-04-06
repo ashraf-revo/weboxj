@@ -2,6 +2,7 @@ sudo: required
 services:
   - docker
 language: java
+
 jdk:
   - oraclejdk8
 install:
@@ -10,4 +11,4 @@ script: /bin/true
 after_success:
   - docker build -t ashraf1abdelrasool/weboxj .
   - docker login -u="ashraf1abdelrasool" -p="01120266849";
-  - docker push ashraf1abdelrasool/javaffmpeg;
+  - docker push ashraf1abdelrasool/weboxj;
