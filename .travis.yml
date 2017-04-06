@@ -5,9 +5,6 @@ language: java
 
 jdk:
   - oraclejdk8
-install:
-  - ./mvnw clean install -DskipTests=true
-script: /bin/true
 after_success:
   - docker build -t ashraf1abdelrasool/weboxj .
   - docker login -u="ashraf1abdelrasool" -p="01120266849";
